@@ -135,7 +135,7 @@ app.post("/bfhl", (req, res) => {
 
 // Checking health of the API
 app.get("/", (_req, res) => {
-  res.json({ status: "ok", route: "/bfhl" });
+  res.json({ status: "ok", route: "/bfhl", made_by: "vinayak raina" });
 });
 
 const PORT = process.env.PORT || 3000;
